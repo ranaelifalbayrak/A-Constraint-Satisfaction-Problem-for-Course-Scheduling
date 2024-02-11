@@ -20,20 +20,20 @@ There is a lunch break between the 4th and 5th hour each day. Thus, for instance
 ## Files Provided  
 
 Courses are specified in courses.csv. Each row is dedicated to one course, with columns for:
-• Course name (unique identifier)
-• Instructor
-• Number of students (the classroom must accommodate at least this number)
-• Number of hours per week (indicating the consecutive hours needed for the course)
-Classrooms are specified in classrooms.csv. Each row is dedicated to a classroom, with columns for:
-• Classroom name (unique identifier)
-• Capacity
+- Course name (unique identifier)
+- Instructor
+- Number of students (the classroom must accommodate at least this number)
+- Number of hours per week (indicating the consecutive hours needed for the course)
+Classrooms are specified in classrooms.csv. Each row is dedicated to a classroom, with columns for:
+- Classroom name (unique identifier)
+- Capacity
 Instructor preferences are specified in preferences.csv. Each instructor is listed at most once, with each row reflecting their preferred time slots. Columns are for:
-• Instructor name (unique identifier)
-• Preferred time slots (a subset of all time slots, listed as a space-separated sequence)
+- Instructor name (unique identifier)
+- Preferred time slots (a subset of all time slots, listed as a space-separated sequence)
 Coordinated courses are specified in coordinations.csv. Each row lists a group of coordinated courses, separated by space. A course name may appear in multiple coordination groups.
 As solutions, files are created and named as 1.csv, 2.csv, ..., with each file representing a distinct solution.
 
 ## Execution
 Two command line arguments: the first for the input directory, the second for the output directory. For instance:
-python3 ceng461_hw1_123456.py "/home/ceng461/hw1/problem1" "/home/ceng461/hw1/solutions1"
+- python3 ceng461_hw1_123456.py "/home/ceng461/hw1/problem1" "/home/ceng461/hw1/solutions1"
 For the above example, courses.csv etc. must be found in /home/ceng461/hw1/problem1 and 1.csv etc. is generated in /home/ceng461/hw1/solutions1.
