@@ -26,7 +26,7 @@ Courses are specified in courses.csv. Each row is dedicated to one course, with 
 - Number of hours per week (indicating the consecutive hours needed for the course)
 Classrooms are specified in classrooms.csv. Each row is dedicated to a classroom, with columns for:
 - Classroom name (unique identifier)
-- Capacity \n
+- Capacity__
 Instructor preferences are specified in preferences.csv. Each instructor is listed at most once, with each row reflecting their preferred time slots. Columns are for:
 - Instructor name (unique identifier)
 - Preferred time slots (a subset of all time slots, listed as a space-separated sequence)
