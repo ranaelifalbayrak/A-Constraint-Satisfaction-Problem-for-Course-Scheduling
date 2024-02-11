@@ -23,14 +23,18 @@ Courses are specified in courses.csv. Each row is dedicated to one course, with 
 - Course name (unique identifier)
 - Instructor
 - Number of students (the classroom must accommodate at least this number)
-- Number of hours per week (indicating the consecutive hours needed for the course)  
+- Number of hours per week (indicating the consecutive hours needed for the course)
+  
 Classrooms are specified in classrooms.csv. Each row is dedicated to a classroom, with columns for:
 - Classroom name (unique identifier)
-- Capacity  
+- Capacity
+  
 Instructor preferences are specified in preferences.csv. Each instructor is listed at most once, with each row reflecting their preferred time slots. Columns are for:
 - Instructor name (unique identifier)
-- Preferred time slots (a subset of all time slots, listed as a space-separated sequence)  
+- Preferred time slots (a subset of all time slots, listed as a space-separated sequence)
+    
 Coordinated courses are specified in coordinations.csv. Each row lists a group of coordinated courses, separated by space. A course name may appear in multiple coordination groups.  
+
 As solutions, files are created and named as 1.csv, 2.csv, ..., with each file representing a distinct solution.
 
 ## Execution
